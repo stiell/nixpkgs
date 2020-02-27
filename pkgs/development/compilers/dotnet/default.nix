@@ -21,7 +21,7 @@ in rec {
   netcore_2_1 = buildNetCore {
     version = "2.1.16";
     sha512s.x64 = "07vvmza32hsblpw4zpcksm2gicy4agh0d1fwradqj16y6xbh3frdp87mqgbj5m54mmyfp5bc8c46v1w6dfm1w3y80v2y46aynild45l";
-    sha512s.arm64 = "32idiqrw203fkg2nfvmma97q0vvy3zdvjwfj31zsqlpimg5ijp1md7qb3ggxng9s8n27n4jd5xrgkn1cxqqhv4yx8a5hlpxwjhqyj38";
+    sha512s.arm64 = "27ab982vz9rn2vzpq68dqfzhryfixq3s0apx7vi0cwiray3scgfmf45fm7qj63k9mvaqnk5g69i339109yasw3q5vpvpyjc1ykbi710";
   };
 
   sdk_2_1 = buildNetCoreSdk {
@@ -43,7 +43,7 @@ in rec {
   netcore_3_0 = buildNetCore {
     version = "3.0.3";
     sha512s.x64 = "32ykpcw2xx708r2lxcwcbxnmy4sk159rlfjfvkw990qh7n79pm3lm2qwa3zhqcslznmpg18kwxz8qb5fgsa0h49g843xx4kyai0n7rx";
-    sha512s.arm64 = "0hfn7ssqrxvkd16gv36kp6ljvfjww8ii9xfs7rd6ks5amypf49zl8g0xz62vplixwbpva2qkar0wnb8qyzkdsyf40gh0jv6rq60nmx4";
+    sha512s.arm64 = "1lp8din7d5jv5fkyq1a7m01i1xg9jwpiljvam1kcyzsnwzvi0cb4ji336cfx4lqrn95gvc75gkzi6q8b4fz0h21gvk6z6kmlcr63nyg";
   };
 
   sdk_3_0 = buildNetCoreSdk {

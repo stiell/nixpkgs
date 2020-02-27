@@ -53,7 +53,7 @@ in rec {
 
   aspnetcore_3_1 = buildAspNetCore {
     version = "3.1.2";
-    sha512.x64 = "27708bk5liz8r39p4dzs41clgq298d49g8ipzdj56pz613vkfyv7bp91666ydz36aazm265j2g9ji3sk1f9kbgv6024zwrly5w9vqrm";
+    sha512s.x64 = "27708bk5liz8r39p4dzs41clgq298d49g8ipzdj56pz613vkfyv7bp91666ydz36aazm265j2g9ji3sk1f9kbgv6024zwrly5w9vqrm";
   };
 
   netcore_3_1 = buildNetCore {
